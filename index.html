@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"><!-- utiliser la version la plus récente d'IE disponible, pas de mode compatibilité ancienne version -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- reco google pour type MIME en + de doctype -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- largeur de page sur largeur d'écran et pas de zoom entre portrait et paysage -->
+		<title>Booki</title>
+		<meta name="description" content="Booki, Trouvez votre hébergement pour des vacances de rêve! En plein centre ville ou en pleine nature."><!-- reco Google, une description spécifique à chaque page -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"><!-- preconnection pour appel à l'AI Google -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- preconnection sur gstatic où les fonts vont être récupérées -->
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css"><!-- lien vers feuille CSS -->
+	</head>
+
+	
+
+	<body>
+		
+		<svg width='0' height='0'>
+			<defs>
+				<path
+					id="star" 
+					d="M 5.5784484,4.6641282 0.91749327,5.2918518 C 0.03226031,5.3664218 -0.32043289,6.7188882 0.34686641,7.2970871 L 3.6366354,10.464169 2.5768725,15.326775 c -0.2011242,0.863048 1.0710095,1.34959 1.8240865,0.888973 l 4.2144704,-2.052201 4.0846376,2.042197 c 0.751172,0.45546 1.823363,-0.290296 1.622322,-1.145448 L 13.674171,10.535144 16.902348,7.4342483 C 17.573137,6.8603664 17.21782,5.50315 16.334862,5.427737 L 11.586522,4.6482082 9.7459138,0.54711149 c -0.343692,-0.8133123 -2.030688,-0.7528782 -2.375161,0.0659841 z" transform="scale(0.0580157531478,0.06047242799) translate(0,0.1)"/>
+			</defs>
+			    <clipPath id='svgStars' clipPathUnits="objectBoundingBox">
+					<use xlink:href="#star" x="0"/>
+					<use xlink:href="#star" x="1.15625"/>
+					<use xlink:href="#star" x="2.3125"/>
+					<use xlink:href="#star" x="3.46875"/>
+					<use xlink:href="#star" x="4.625"/>
+				</clipPath>
+		</svg>
+
+			<header>
+
+				<div class="logo-Booki">
+					<a href="#"><img 
+							srcset="images/logo/Booki@3x.png 285w,
+									images/logo/Booki.png 191w"
+							src="images/logo/Booki.png"
+							sizes="(max-width:767px) 25.33333vw, (max-width:992px) 85px, (min-width:2880px) 190px, (min-width:1920px) 127px, (min-width:1400px) 92px, 68px"
+							alt="Logo Booki"></a>
+						<!-- largeur pour desktop 2880px 6.59722vw -->
+					
+				</div>
+
+				<nav class="nav-pages">
+					<ul>
+						<li class="page-hébergements"><a href="#hebergements">Hébergements</a></li>
+						<li class="page-activités"><a href="#activites">Activités</a></li>
+					</ul>
+				</nav>
+
+			</header>
+
+			<main>
+
+				<section id="recherche">
+					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+					<p>En plein centre ville ou en pleine nature</p>
+
+					<form action="#" method="get" id="recherche-loc">
+
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<input type="search" id="recherche-input" name="recherche-input" aria-label="Indiquez la localité de recherche d'hébergements et/ou activités" placeholder="Ville, Pays">
+							<button id="recherche-input-btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg><span>Rechercher</span></button>
+
+
+					</form>
+
+					<div id="filtres">
+
+						<span>Filtres</span>
+
+						<a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M48.66 79.13C128.4 100.9 208.2 80.59 288 60.25C375 38.08 462 15.9 549 48.38C565.9 54.69 576 71.62 576 89.66V399.5C576 423.4 550.4 439.2 527.3 432.9C447.6 411.1 367.8 431.4 288 451.7C200.1 473.9 113.1 496.1 26.97 463.6C10.06 457.3 0 440.4 0 422.3V112.5C0 88.59 25.61 72.83 48.66 79.13L48.66 79.13zM287.1 352C332.2 352 368 309 368 255.1C368 202.1 332.2 159.1 287.1 159.1C243.8 159.1 207.1 202.1 207.1 255.1C207.1 309 243.8 352 287.1 352zM63.1 416H127.1C127.1 380.7 99.35 352 63.1 352V416zM63.1 143.1V207.1C99.35 207.1 127.1 179.3 127.1 143.1H63.1zM512 303.1C476.7 303.1 448 332.7 448 368H512V303.1zM448 95.1C448 131.3 476.7 159.1 512 159.1V95.1H448z"/></svg>
+							<span>Économique</span>
+						</a>
+
+						<a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M224 144c39.75 0 72-32.25 72-72S263.8-.0004 224-.0004S151.1 32.25 151.1 72S184.3 144 224 144zM415.1 110.8c-13.89-17.14-39.06-19.8-56.25-5.906L307.6 146.4c-47.16 38.19-120.1 38.19-167.3 0L89.17 104.9C72.02 91 46.8 93.67 32.92 110.8C19.02 128 21.66 153.2 38.83 167.1l51.19 41.47c11.73 9.496 24.63 17.16 37.98 23.92L127.1 480c0 17.62 14.38 32 32 32h15.1c17.62 0 32-14.38 32-32v-112h32V480c0 17.62 14.38 32 32 32h15.1c17.62 0 32-14.38 32-32l-.0001-247.5c13.35-6.756 26.25-14.42 37.97-23.91l51.2-41.47C426.3 153.2 428.1 128 415.1 110.8z"/></svg>
+							<span>Familial</span>
+						</a>
+
+						<a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"/></svg>
+							<span>Romantique</span>
+						</a>
+
+						<a href="#">
+							
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M298.06,224,448,277.55V496a16,16,0,0,1-16,16H368a16,16,0,0,1-16-16V384H192V496a16,16,0,0,1-16,16H112a16,16,0,0,1-16-16V282.09C58.84,268.84,32,233.66,32,192a32,32,0,0,1,64,0,32.06,32.06,0,0,0,32,32ZM544,112v32a64,64,0,0,1-64,64H448v35.58L320,197.87V48c0-14.25,17.22-21.39,27.31-11.31L374.59,64h53.63c10.91,0,23.75,7.92,28.62,17.69L464,96h64A16,16,0,0,1,544,112Zm-112,0a16,16,0,1,0-16,16A16,16,0,0,0,432,112Z"></path></svg>
+							<span>Animaux autorisés</span>
+						</a>
+							
+					</div>
+
+					<p id="info"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M160 448h-32V224c0-17.69-14.33-32-32-32L32 192c-17.67 0-32 14.31-32 32s14.33 31.1 32 31.1h32v192H32c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32S177.7 448 160 448zM96 128c26.51 0 48-21.49 48-48S122.5 32.01 96 32.01s-48 21.49-48 48S69.49 128 96 128z"/></svg><span>Plus de 500 logements sont disponibles dans cette ville</span></p>
+
+				</section>
+
+				<section id="hebergements-populaires">
+
+					<div id="hebergements">
+
+						<h2>Hébergements à Marseille</h2>
+
+						<div id="hebergements-cards">
+
+							<a href="#">
+								<article class="card">
+									<div class="hebergement-picture">
+										<img id="img"
+											srcset="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg 5993w, 
+													images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg 2997w, 
+													images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1499w, 
+													images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 750w" 
+											src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+											sizes="(max-width:767px) 89.17vw, (max-width:992px) 220px, (min-width:2880px) 490px, (min-width:1920px) 327px, (min-width:1400px) 238px, 174px" 
+											alt="Photo de l'auberge La Cannebière">
+									</div>
+									<h3>Auberge La Cannebière</h3>
+									<p>Nuit à partir de <span class="bold">25€</span></p>
+									<div  id="testNote" class="note quatrevingt" aria-label="Note : 4 sur 5" role="img"></div>
+								</article>
+							</a>
+
+							<a href="#">
+								<article class="card">
+									<div class="hebergement-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg 5472w, 
+													images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg 2736w, 
+													images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1368w, 
+													images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 684w" 
+											src="images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" 
+											sizes="(max-width:767px) 89.17vw, (max-width:992px) 220px, (min-width:2880px) 490px, (min-width:1920px) 327px, (min-width:1400px) 238px, 174px"
+											alt="Photo de l'Hôtel du Port">
+											<!-- Sizes à calculer -->
+									</div>
+									<h3>Hôtel du port</h3>
+									<p>Nuit à partir de 52<span class="bold">€</span></p>
+									<div class="note" aria-label="Note : 5 sur 5" role="img"></div>
+								</article>
+							</a>
+
+							<a href="#">
+								<article class="card">
+									<div class="hebergement-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg 6000w, 
+													images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg 3000w, 
+													images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg 1500w, 
+													images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg 750w" 
+											src="images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg" 
+											sizes="(max-width:767px) 89.17vw, (max-width:992px) 220px, (min-width:2880px) 490px, (min-width:1920px) 327px, (min-width:1400px) 238px, 174px"
+											alt="Photo de l'Hôtel des mouettes">
+											<!-- Sizes à calculer -->
+									</div>
+									<h3>Hôtel Les mouettes</h3>
+									<p>Nuit à partir de 76<span class="bold">€</span></p>
+									<div class="note quatrevingt" aria-label="Note : 4 sur 5" role="img"></div>
+								</article>
+							</a>
+
+							<a href="#">
+								<article class="card">
+									<div class="hebergement-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg 4000w, 
+													images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg 2000w, 
+													images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1000w, 
+													images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg 500w" 
+											src="images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" 
+											sizes="(max-width:767px) 89.17vw, (max-width:992px) 220px, (min-width:2880px) 490px, (min-width:1920px) 327px, (min-width:1400px) 238px, 174px"
+											alt="Photo de l'Hôtel de la mer'">
+											<!-- Sizes à calculer -->
+									</div>
+									<h3>Hôtel de la mer</h3>
+									<p>Nuit à partir de 46<span class="bold">€</span></p>
+									<div class="note soixante" aria-label="Note : 3 sur 5" role="img"></div>
+								</article>
+							</a>
+
+							<a href="#">
+								<article class="card">
+									<div class="hebergement-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 5212w, 
+													images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 2606w, 
+													images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1303w, 
+													images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 652w" 
+											src="images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" 
+											sizes="(max-width:767px) 89.17vw, (max-width:992px) 220px, (min-width:2880px) 490px, (min-width:1920px) 327px, (min-width:1400px) 238px, 174px"
+											alt="Photo de l'Auberge Le Panier'">
+											<!-- Sizes à calculer -->
+									</div>
+									<h3>Auberge Le Panier</h3>
+									<p>Nuit à partir de <span class="bold">25€</span></p>
+									<div class="note quatrevingt" aria-label="Note : 4 sur 5" role="img"></div>
+								</article>
+							</a>
+
+							<a href="#">
+								<article class="card">
+									<div class="hebergement-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 3888w, 
+													images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1944w, 
+													images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 972w, 
+													images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 486w" 
+											src="images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
+											sizes="(max-width:767px) 89.17vw, (max-width:992px) 220px, (min-width:2880px) 490px, (min-width:1920px) 327px, (min-width:1400px) 238px, 174px"
+											alt="Photo de l'Hôtel chez Amina'">
+											<!-- Sizes à calculer -->
+									</div>
+									<h3>Hôtel chez Amina</h3>
+									<p>Nuit à partir de 96<span class="bold">€</span></p>
+									<div class="note" aria-label="Note : 4 sur 5" role="img"></div>
+								</article>
+							</a>
+
+						</div>
+
+						<a href="#" id="lien-afficher-plus">Afficher plus</a>
+
+					</div>
+
+					<aside id="populaires" class="hebergements-populaires-sections">
+
+						<h2>Les plus populaires
+							<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="currentColor" d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"></path>
+							</svg>
+						</h2>
+
+
+						<div id="populaires-cards">
+
+							<a href="#">
+								<article class="card">
+									<div class="populaires-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 4249w, 
+													images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 2125w, 
+													images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 1063w, 
+													images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 532w" 
+											src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" 
+											sizes="(max-width:767px) 56.34469vw, (max-width:992px) 220px, (min-width:2880px) 433px, (min-width:1920px) 289px, (min-width:1400px) 210px, 154px"
+											alt="Photo de l'Hôtel Le soleil du matin">
+											<!-- Sizes à calculer 423px-->
+									</div>
+									<h3>Hôtel Le soleil du matin</h3>
+									<p>Nuit à partir de 128<span class="bold">€</span></p>
+									<div class="note" aria-label="Note : 4 sur 5" role="img"></div>
+								</article>
+							</a>
+
+							<a href="#">
+								<article class="card">
+									<div class="populaires-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg 4032w, 
+													images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg 2016w, 
+													images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg 1008w, 
+													images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg 504w" 
+											src="images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" 
+											sizes="(max-width:767px) 49.836vw, (max-width:992px) 220px, (min-width:2880px) 383px, (min-width:1920px) 255px, (min-width:1400px) 186px, 136px"
+											alt="Photo d'une chambre des chambres d'hôtes Au coeur de l'eau">
+											<!-- Sizes à calculer 374px-->
+									</div>
+									<h3>Au cœur de l'eau <br>Chambres d'hôtes</h3>
+									<p>Nuit à partir de 71<span class="bold">€</span></p>
+									<div class="note quatrevingt" aria-label="Note : 4 sur 5" role="img"></div>
+								</article>
+							</a>
+
+							<a href="#">
+								<article class="card">
+									<div class="populaires-picture">
+										<img 
+											srcset="images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg 4000w, 
+													images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg 2000w, 
+													images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg 1000w, 
+													images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg 500w" 
+											src="images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
+											sizes="(max-width:767px) 35.78467vw, (max-width:992px) 150px, (min-width:2880px) 275px, (min-width:1920px) 183px, (min-width:1400px) 134px, 98px"
+											alt="Photo d'une chambre de l'Hôtel Tout bleu et Blanc">
+											<!-- Sizes à calculer 268px-->
+									</div>
+									<h3>Hôtel Tout bleu et Blanc</h3>
+									<p>Nuit à partir de 68<span class="bold">€</span></p>
+									<div class="note quatrevingt" aria-label="Note : 4 sur 5" role="img"></div>
+								</article>
+							</a>
+
+						</div>
+
+					</aside>
+
+				</section>
+
+				<section id="activites">
+
+					<h2>Activités à Marseille</h2>
+
+					<div id="activites-cards">
+
+						<a href="#">
+							<article class="card">
+									<picture>
+										<img 
+											srcset="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 5616w, 
+													images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 2808w, 
+													images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w, 
+													images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w" 
+											src="images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+											sizes="(max-width:767px) 89.33333vw, (max-width:992px) 598px, (min-width:2880px) 1329px, (min-width:1920px) 886px, (min-width:1400px) 646px, 472px"
+											alt="Photo du Vieux Port">
+											<!-- Sizes à calculer -->
+									</picture>
+									<h3>Vieux Port</h3>
+							</article>
+						</a>
+
+						<a href="#">
+							<article class="card">
+									<picture>
+										<img 
+											srcset="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg 2843w, 
+													images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg 1422w, 
+													images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg 711w, 
+													images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg 356w" 
+											src="images/hebergements/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
+											sizes="(max-width:767px) 89.33333vw, (max-width:992px) 294px, (min-width:2880px) 604px, (min-width:1920px) 403px, (min-width:1400px) 294px, 215px"
+											alt="Photo du Fort de Pomègues">
+											<!-- Sizes à calculer, image plus haute que longue -->
+									</picture>
+									<h3>Fort de Pomègues</h3>
+							</article>
+						</a>
+
+						<a href="#">
+							<article class="card">
+									<picture>
+										<img 
+											srcset="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 5184w, 
+													images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 2592w, 
+													images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 1296w, 
+													images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 648w" 
+											src="images/hebergements/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+											sizes="(max-width:767px) 89.33333vw, (max-width:992px) 294px, (min-width:2880px) 604px, (min-width:1920px) 403px, (min-width:1400px) 294px, 215px"
+											alt="Photo des Îles du Frioul">
+											<!-- Sizes à calculer -->
+									</picture>
+									<h3>Îles du Frioul</h3>
+							</article>
+						</a>
+
+						<a href="#">					
+							<article class="card">
+									<picture>
+										<img 
+											srcset="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 4846w, 
+													images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 2423w, 
+													images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1212w, 
+													images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 606w" 
+											src="images/hebergements/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
+											sizes="(max-width:767px) 89.33333vw, (max-width:992px) 598px, (min-width:2880px) 1330px, (min-width:1920px) 887px, (min-width:1400px) 646px, 473px"
+											alt="Photo du Parc National des Calanques">
+											<!-- Sizes à calculer -->
+									</picture>
+									<h3>Parc National des Calanques</h3>
+							</article>
+						</a>
+
+						<a href="#">
+							<article class="card">
+									<picture>
+										<img 
+											srcset="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg 4712w, 
+													images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg 2356w, 
+													images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg 1178w, 
+													images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg 589w" 
+											src="images/hebergements/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
+											sizes="(max-width:767px) 89.33333vw, (max-width:992px) 294px, (min-width:2880px) 604px, (min-width:1920px) 403px, (min-width:1400px) 294px, 215px"
+											alt="Photo de Notre-Dame-de-la-Garde">
+											<!-- Sizes à calculer -->
+									</picture>
+									<h3>Notre-Dame-de-la-Garde</h3>
+							</article>
+						</a>
+
+						<a href="#">		
+							<article class="card">
+									<picture>
+										<img 
+											srcset="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg 4032w, 
+													images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg 2016w, 
+													images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1008w, 
+													images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg 504w" 
+											src="images/hebergements/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
+											sizes="(max-width:767px) 89.33333vw, (max-width:992px) 294px, (min-width:2880px) 604px, (min-width:1920px) 403px, (min-width:1400px) 294px, 215px"
+											alt="Photo du Parc Longchamp">
+											<!-- Sizes à calculer -->
+									</picture>
+									<h3>Parc Longchamp</h3>
+							</article>
+						</a>
+
+					</div>
+
+				</section>
+
+			</main>
+
+			<footer>
+
+				<div>
+					<h3>A propos</h3>
+					<ul>
+						<li><a href="#">Fonctionnement du site</a></li>
+						<li><a href="#">Conditions générales de vente</a></li>
+						<li><a href="#">Données et confidentialité</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>Nos hébergements</h3>
+					<ul>
+						<li><a href="#">Charte qualité</a></li>
+						<li><a href="#">Soumettre votre hôtel</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>Assistance</h3>
+					<ul>
+						<li><a href="#">Centre d'aide</a></li>
+						<li><a href="#">Nous contacter</a></li>
+					</ul>
+				</div>
+
+			</footer>
+		
+	</body>
+</html>

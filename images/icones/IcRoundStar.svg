@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-hidden="true"
+   role="img"
+   class="iconify iconify--ic"
+   width="200"
+   height="200"
+   preserveAspectRatio="xMidYMid meet"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg56"
+   sodipodi:docname="IcRoundStar.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs60" />
+  <sodipodi:namedview
+     id="namedview58"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     showguides="false"
+     inkscape:lockguides="true"
+     inkscape:zoom="7.178783"
+     inkscape:cx="69.16214"
+     inkscape:cy="67.629847"
+     inkscape:window-width="3424"
+     inkscape:window-height="1361"
+     inkscape:window-x="-187"
+     inkscape:window-y="240"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg56" />
+  <rect
+     fill="white"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     id="rect52" />
+  <path
+     d="m 14.422069,10.089005 3.12091,-3.3204497 C 18.214393,6.1868302 17.853317,5.0927898 16.973486,5.0186475 L 12.14393,4.6139401 10.246542,0.14390466 C 9.900671,-0.6719833 8.7432682,-0.66767843 8.4060581,0.14815816 L 6.5306888,4.6180564 1.7056086,5.0450216 C 0.83030447,5.119471 0.47360212,6.2232661 1.1398048,6.7958688 L 4.7930121,9.9626775 3.6979117,14.684727 c -0.2039935,0.858887 0.7320079,1.539697 1.4899317,1.080511 l 4.154453,-2.514323 4.1530516,2.498112 c 0.75683,0.454761 1.68986,-0.221076 1.485849,-1.085703 z"
+     fill="#000000"
+     id="path54"
+     inkscape:transform-center-y="-0.43401192"
+     inkscape:transform-center-x="-0.73007614"
+     sodipodi:nodetypes="cccccccccccccccc" />
+</svg>
